@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Projeto DrivenEats</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="topo-da-pagina">
+        
+          <div class="texto-topo">DrivenEats</div>
+          <div class="texto-topo-subtitulo">Sua comida em 6 minutos</div>
+       
+    </div>
+    <div class="area-das-propagandas">
+        
+        <div class="area-dos-lanches">
+            <div class="texto-tipos-de-alimentos">Primeiro, seu prato</div>
+            <div class="alimentos">
+                <div class="alimento lanches baguncinha" onclick="selecionarLanche(this)">
+                    <img src="IMG/imagens/lanche-1.jpeg" class="img-prato">
+                    <div class="nome-do-alimento">Baguncinha</div>
+                    <div class="descricao-do-alimento">Um pouco de batata</div>
+                    <div class="descricao-do-alimento-2">Dois hamburgueres</div>
+                    <div class="preco preco-do-alimento">R$ 17,90</div>
+                    <img src="IMG/imagens/checked.png" class="check visibilidade">
+
+                    
+                </div>
+
+                <div class="alimento lanches whopper" onclick="selecionarLanche(this)">
+                    <img src="IMG/imagens/lanche-2.jpeg" class="img-prato">
+                    <div class="nome-do-alimento">Whopper furioso</div>
+                    <div class="descricao-do-alimento">Um pouco de batata</div>
+                    <div class="descricao-do-alimento-2">Dois hamburgueres</div>
+                    <div class="preco preco-do-alimento">R$ 21,90</div>
+                    <img src="IMG/imagens/checked.png" class="check visibilidade">
+
+                </div>
+
+                <div class="alimento lanches baguete" onclick="selecionarLanche(this)" >
+                    <img src="IMG/imagens/lanche-3.jpeg" class="img-prato">
+                    <div class="nome-do-alimento">Baguete</div>
+                    <div class="descricao-do-alimento">Um pouco de molho</div>
+                    <div class="descricao-do-alimento-2">Dois stake</div>
+                    <div class="preco preco-do-alimento">R$ 20,45</div>
+                    <img src="IMG/imagens/checked.png" class="check visibilidade">
+
+                </div>
+            </div>
+        </div>
+        <div class="area-das-bebidas">
+            <div class="texto-tipos-de-alimentos">Agora, sua bebida</div>
+            <div class="alimentos">
+                <div class="alimento bebidas suco" onclick="selecionarBebida(this)">
+                    <img src="IMG/imagens/bebida-1.jpg" class="img-prato">
+                    <div class="nome-do-alimento">Suco natural</div>
+                    <div class="descricao-do-alimento">Com leite</div>
+                    <div class="descricao-do-alimento-2">Sem açucar</div>
+                    <div class="preco preco-do-alimento">R$ 15,50</div>
+                    <img src="IMG/imagens/checked.png" class="check visibilidade">
+                    
+                </div>
+
+                <div class="alimento bebidas refrigerante" onclick="selecionarBebida(this)">
+                    <img src="IMG/imagens/bebida-2.jpeg" class="img-prato">
+                    <div class="nome-do-alimento">Refrigerante lata</div>
+                    <div class="descricao-do-alimento">Zero açucar</div>
+                    <div class="descricao-do-alimento-2">350 ml</div>
+                    <div class="preco preco-do-alimento">R$ 8,00</div>
+                    <img src="IMG/imagens/checked.png" class="check visibilidade">
+
+                </div>
+
+                <div class="alimento bebidas agua" onclick="selecionarBebida(this)">
+                    <img src="IMG/imagens/bebida-3.jpg" class="img-prato">
+                    <div class="nome-do-alimento">Agua mineral</div>
+                    <div class="descricao-do-alimento">Com/Sem gás</div>
+                    <div class="descricao-do-alimento-2">500ml</div>
+                    <div class="preco preco-do-alimento">R$ 4,50</div>
+                    <img src="IMG/imagens/checked.png" class="check visibilidade">
+
+                </div>
+            </div>
+        
+        </div>
+        <div class="area-das-sobremesas">
+            
+            <div class="texto-tipos-de-alimentos">Por fim, sua sobremesa</div>
+            <div class="alimentos">
+                <div class="alimento sobremesas sorvete" onclick="selecionarSobremesa(this)">
+                    <img src="IMG/imagens/sobremesa-1.jpg" class="img-prato">
+                    <div class="nome-do-alimento">Sorvete</div>
+                    <div class="descricao-do-alimento">Na casquinha</div>
+                    <div class="descricao-do-alimento-2">No potinho</div>
+                    <div class="preco preco-do-alimento">R$ 9,50</div>
+                    <img src="IMG/imagens/checked.png" class="check visibilidade">
+
+                </div>
+
+                <div class="alimento sobremesas pudim" onclick="selecionarSobremesa(this)">
+                    <img src="IMG/imagens/sobremesa-2.webp" class="img-prato">
+                    <div class="nome-do-alimento">Pudim</div>
+                    <div class="descricao-do-alimento">Com calda</div>
+                    <div class="descricao-do-alimento-2">Zero açucar</div>
+                    <div class="preco preco-do-alimento">R$ 10,00</div>
+                    <img src="IMG/imagens/checked.png" class="check visibilidade">
+
+                </div>
+
+                <div class="alimento sobremesas mousse" onclick="selecionarSobremesa(this)">
+                    <img src="IMG/imagens/sobremesa-3.jpg" class="img-prato">
+                    <div class="nome-do-alimento">Mousse</div>
+                    <div class="descricao-do-alimento">Com/Sem cobertura</div>
+                    <div class="descricao-do-alimento-2">Zero açucar</div>
+                    <div class="preco preco-do-alimento">R$ 7,50</div>
+                    <img src="IMG/imagens/checked.png" class="check visibilidade">
+
+                </div>
+            </div>
+        
+        </div>
+            
+    </div>
+    <div class="msn-final visibilidade">
+        <div class="texto-msn-topo">Confirme seu pedido</div>
+        <div class="corpo-msn">
+            <div class="texto-lado-esquerdo">
+                <div class="texto-nome-lanche">baguncinha</div>
+                <div class="texto-nome-bebida">suco</div>
+                <div class="texto-nome-sobremesa">pudim</div>
+                <div class="texto-total">TOTAL</div>
+            </div>
+            <div class="texto-lado-direito">
+                <div class="preco-lanche">R$ 7,50</div>
+                <div class="preco-bebida">R$ 8,00</div>
+                <div class="preco-sobremesa">R$ 9,40</div>  
+                <div class="preco-total">R$ 24,90</div>              
+            </div>
+        </div>
+        <div class="bottom-msn-final">
+            <button class="botao-confirmar-pedido" >Tudo certo, pode pedir!</button>
+            <button class="botao-cancelar-pedido" onclick="botaoCancelarPedido()">Cancelar</button>
+        </div>
+    </div>
+    <div class="barra-bottom">
+        <button class="botao-selecionar" onclick="botaoSelecionarFinal()">Selecione os 3 items para fechar o pedido!
+        </button>
+    </div>
+  <script src="script.js"></script>
+  </body>
+</html>
